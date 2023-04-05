@@ -24,4 +24,5 @@
 */yarn-error.log*
 
 
-/client/src/index.js
+client/src/index.js
+client/src/index.js
