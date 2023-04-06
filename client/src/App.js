@@ -3,7 +3,7 @@ import React from "react";
 // import UserProfileName from "./component/UserInfo";
 // import { FaUserCircle } from "react-icons/fa";
 // import HeaderPic from "./Header-pic";
-import { Header } from "./component/Header";
+import { Header } from "./components/Header";
 
 function App() {
   return (

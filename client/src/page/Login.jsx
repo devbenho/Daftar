@@ -1,9 +1,9 @@
 import React from "react"
-import Loginpic from 'E://vs_project//react//daftar//client//src//svg&img//login.png';
+import Loginpic from '../assets/login.png';
 export const Login = () =>{
     return (
         <>
-        <div className="container h-screen flex justify-center items-center w-full bg-brand-100 overflow-hidden">
+        <div className="h-screen flex justify-center items-center w-full bg-brand-100 overflow-hidden">
             <div className="grid grid-cols-1 sm:grid-cols-2 bg-brand-50">
                 <div className="flex flex-col justify-center">
                     <form className="max-w-[400px] w-full mx-auto p-8 px-8 justify-center">
