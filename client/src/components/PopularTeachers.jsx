@@ -46,8 +46,8 @@ export default function PopularTeachers(props) {
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={-100}
-            slidesPerView={3}
+            spaceBetween={200}
+            slidesPerView={5}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}

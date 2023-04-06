@@ -32,7 +32,12 @@ export const FooterApp = () =>{
         </div>
         <div className="flex justify-center text-brand-50 text-7xl">
         <button className="hover:text-[#FFD5D0] h-fit mt-8">
-            <FiArrowUpCircle/>
+            {/* <AnimatePresence>
+
+            </AnimatePresence> */}
+            <a href="#header">
+                <FiArrowUpCircle/>
+            </a>
         </button>
         </div>
         </footer>

@@ -3,8 +3,8 @@ import React from "react";
 const HeaderPic = () => {
   return (
     <svg
-      width="500"
-      height="525"
+      width="490"
+      height="550"
       viewBox="0 0 380 400"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
