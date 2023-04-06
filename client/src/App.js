@@ -1,14 +1,15 @@
 import React from "react";
-// import HeaderLogo from "./HeaderLogo";
-// import UserProfileName from "./component/UserInfo";
-// import { FaUserCircle } from "react-icons/fa";
-// import HeaderPic from "./Header-pic";
-import { Header } from "./component/Header";
+import  {Button}  from "./components/Button";
+import { Spacer } from "./components/Spacer";
 
-function App() {
+const App = () => {
   return (
-   <Header/>
+    <div>
+      <Button label="Solid" variant="solid" px={3} bg="brand-100" color="white"/>
+      <Spacer spacer="|"/>
+      <Button label="Ghost" variant="ghost" px={3} bg="brand-100" color="black"/>
+    </div>
   );
-}
+};
 
 export default App;
