@@ -14,7 +14,7 @@ export function CardTeachers({ img, teacherName, subjectName, rating }) {
         <p className="font-['Poppins'] text-[18px] ml-4 mt-8">{teacherName}</p>
         <p className="text-text-meta text-[18px] ml-4">{subjectName}</p>
         <div className=" ml-4 bg-bottom mt-24 justify-end align-bottom">
-          <RattingBar rating={rating}/>
+          <RattingBar rating={rating} />
         </div>
       </div>
     </>
