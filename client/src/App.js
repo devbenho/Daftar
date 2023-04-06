@@ -1,15 +1,9 @@
-import React from "react";
-import  {Button}  from "./components/Button";
-import { Spacer } from "./components/Spacer";
+// import HeaderLogo from "./HeaderLogo";
+// import UserProfileName from "./component/UserInfo";
+// import { FaUserCircle } from "react-icons/fa";
+// import HeaderPic from "./Header-pic";
+// import { Header } from "./component/Header";
 
-const App = () => {
-  return (
-    <div>
-      <Button label="Solid" variant="solid" px={3} bg="brand-100" color="white"/>
-      <Spacer spacer="|"/>
-      <Button label="Ghost" variant="ghost" px={3} bg="brand-100" color="black"/>
-    </div>
-  );
-};
+function App() {}
 
 export default App;
