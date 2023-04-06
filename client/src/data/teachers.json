@@ -1,0 +1,40 @@
+{
+  "status":" success",
+  "data": [
+    {
+      "teacherName": "Muhammad Banhawy",
+      "Photo": "../assets/model-teacher.jpg",
+      "SubjectName": "Arabic",
+      "rating": "2",
+      "description": "Lover Teacher"
+    },
+    {
+      "teacherName": "Moataz Essam",
+      "Photo": "../assets/motaz.jpg",
+      "SubjectName": "Physics",
+      "rating": "3",
+      "description": "Best Teacher"
+    },
+    {
+      "teacherName": "Reem el-Eraqi",
+      "Photo": "../assets/reem.jpg",
+      "SubjectName": "English",
+      "rating": "4",
+      "description": "Best Teacher"
+    },
+    {
+      "teacherName": "Bassil Haroun ",
+      "Photo": "../assets/bassil.jpg",
+      "SubjectName": "Chemistry",
+      "rating": "4",
+      "description": "Best Teacher"
+    },
+    {
+      "teacherName": "Muhammad Hamdy",
+      "Photo": "../assets/hamdy_pic.jpg",
+      "SubjectName": "Biology",
+      "rating": "2",
+      "description": ""
+    }
+  ]
+}

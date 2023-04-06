@@ -1,13 +1,12 @@
-export default function Avatar({ src, alt, size}) {
+export default function Avatar({size, src, alt}) {
   return (
     <>
-    <div className={`flex items-center justify-center  bg-gray-950  w-[${size}px] h-[${size}px]`}>
-      <img
-        src={src}
-        alt={alt}
-        className={`rounded-full object-cover border-[1.5px] w-[${size}px] h-[${size}px] border-x-brand-300`}
-      />
-    </div>
+        <img
+          src={src}
+          alt={alt}
+          className={`object-cover w-32 h-32 rounded-full `}
+          // className={`object-cover w-${size} h-${size} rounded-full `}
+        />
     </>
   );
 }
