@@ -10,8 +10,8 @@ import LandingPage from "./page/LandingPage";
 function App() {
   return (
     <>
-      {/* <Avatar src={require("./assets/model-teacher.jpg")} size="400" alt="Model Teacher" /> */}
-      <LandingPage />
+      <Avatar src={require("./assets/model-teacher.jpg")} size="300" alt="Model Teacher" />
+      {/* <LandingPage /> */}
     </>
   );
 }
