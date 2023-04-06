@@ -1,11 +1,11 @@
 export default function Avatar(props) {
   return (
     <>
-      <div
-        className={`object-cover w-[${props.size}px] h-[${props.size}px] rounded-full`}
-      >
-        <img src={props.src} alt={props.alt} />
-      </div>
+      <img
+        src={props.src}
+        alt={props.alt}
+        className={`border-[1.5px] border-x-brand-300 object-cover h-[${props.size}px] w-[${props.size}px] rounded-full`}
+      />
     </>
   );
 }

@@ -5,7 +5,7 @@ export function CardTeachers(props) {
   return (
     <>
       <div className="w-[300px] h-[450px] bg-brand-100 mx-auto my-16">
-        <Avatar src={ModelTeacherImg} alt="modelTeacher" size="150" />
+        <Avatar src="" alt="modelTeacher" size="400" />
       </div>
     </>
   );

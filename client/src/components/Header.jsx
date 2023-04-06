@@ -1,3 +1,4 @@
+import HeaderPic from "../assets/svg/Header-pic"
 import { Spacer } from "./Spacer"
 
 export const Header = () => {
@@ -28,7 +29,7 @@ export const Header = () => {
                     </div>
                 </nav>
                 {/* Grid */}
-                <div className="grid grid-cols-2 grid-rows-1 w-full h-full bg-slate-950">
+                <div className="grid grid-cols-2 grid-rows-1 w-full h-full bg-brand-500">
                     {/* Left column */}
                     <div className="flex items-center justify-center">
                     <h2 className="text-4xl font-bold text-white absolute top-[221px] left-[144px] w-[707px] h-[137px] leading-[68.5px]">
@@ -37,15 +38,11 @@ export const Header = () => {
                     </div>
                     {/* Right column */}
                     <div className="flex items-center justify-center">
-                        <svg
-                            width="500"
-                            height="500"
-                            viewBox="0 0 500 500"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <circle cx="250" cy="250" r="250" fill="#E9F7FA" />
-                        </svg>
+                            {/* <circle cx="250" cy="250" r="250" fill="#E9F7FA" /> */}
+                        <HeaderPic />
+
+
+
                     </div>
                 </div>
             </header>
