@@ -1,7 +1,7 @@
 import React from "react"
 import Loginpic from '../assets/login.png';
 
-export const Sigin = () =>{
+export const SignUp = () =>{
     return (
         <>
         <div className="h-screen flex justify-center items-center w-full bg-brand-100">
